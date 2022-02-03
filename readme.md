@@ -10,7 +10,7 @@
 
 With Blank, users will be able to meet people through online and offline events like watch-parties and meetups.
 
-Netlify Build a Better Web Hackathon entry -- #Netlify, #NetlifyHackathon
+[Netlify Build a Better Web Hackathon](https://townhall.hashnode.com/netlify-hackathon) -:- #Netlify, #NetlifyHackathon
 
 ## TODO
 
