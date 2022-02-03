@@ -14,7 +14,7 @@ With Blank, users will be able to meet people through online and offline events 
 
 ## TODO
 
-- :black_square_button: Signup / sign in
+- :black_square_button: Signup / Sign in
 
 - :black_square_button: Home feed
 
