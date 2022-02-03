@@ -8,7 +8,7 @@
 
 ## Introduction
 
-With `Let'sBlank`, users will be able to meet people through online and offline events like watch parties and meetups.
+With Blank, users will be able to meet people through online and offline events like watch-parties and meetups.
 
 ## TODO
 
@@ -16,8 +16,20 @@ With `Let'sBlank`, users will be able to meet people through online and offline 
 
 - :black_square_button: Home feed
 
-- :black_square_button: signed in users can create events
+- :black_square_button: User profiles
 
-- :black_square_button: bookmark events
+- :black_square_button: Signed in users can create events
 
-- :black_square_button: signup for event
+- :black_square_button: Share event on other social media
+
+- :black_square_button: Bookmark events
+
+- :black_square_button: Signup for event
+
+- :black_square_button: Signed up users can create streams using jitsi
+
+- :black_square_button: Private messages
+
+- :black_square_button: Groups
+
+- :black_square_button: Paid events
