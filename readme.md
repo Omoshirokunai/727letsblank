@@ -10,6 +10,8 @@
 
 With Blank, users will be able to meet people through online and offline events like watch-parties and meetups.
 
+Netlify Build a Better Web Hackathon entry -- #Netlify, #NetlifyHackathon
+
 ## TODO
 
 - :black_square_button: Signup / sign in
