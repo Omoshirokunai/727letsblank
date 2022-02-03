@@ -16,8 +16,8 @@ With `Let'sBlank`, users will be able to meet people through online and offline 
 
 - :black_square_button: Home feed
 
-- [] signed in users can create events
+- :black_square_button: signed in users can create events
 
-- [] bookmark events
+- :black_square_button: bookmark events
 
-- [] signup for event
+- :black_square_button: signup for event
