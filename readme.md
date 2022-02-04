@@ -12,7 +12,7 @@ With Blank, users will be able to meet people through online and offline events 
 
 [Netlify Build a Better Web Hackathon](https://townhall.hashnode.com/netlify-hackathon) -:- #Netlify, #NetlifyHackathon
 
-## TODO
+## Todo
 
 - :black_square_button: Signup / Sign in
 
