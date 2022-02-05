@@ -28,7 +28,7 @@ With Blank, users will be able to meet people through online and offline events 
 
 - :black_square_button: Signup for event
 
-- :black_square_button: Signed up users can create streams using jitsi
+- :black_square_button: Signed up users can create streams using our self hosted jitsi server
 
 - :black_square_button: Private messages
 
