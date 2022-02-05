@@ -6,6 +6,13 @@
 
 </div>
 
+---  
+
+![ ](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)
+![ ](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![ ](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![ ](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
 ## 💙 Introduction
 
 With Blank, users will be able to meet people through online and offline events like watch-parties and meetups.
@@ -32,14 +39,11 @@ export FLASK_APP=app.py
 Flask run
 ```
 
----
-note in order to show updates made to tailwindcss files run:
+> 🔴 Note: in order to show updates made to tailwindcss files run:
 
 ```shell
 npm run build-css
 ```
-
----
 
 ## 👷 Todo
 
