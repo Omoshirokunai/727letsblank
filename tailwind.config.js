@@ -10,6 +10,7 @@ module.exports = {
     themes: [
       {
         'mytheme': {
+
           'primary': '#4506cb',
           'primary-focus': '#2191FB',
           'primary-content': '#ffffff',
@@ -19,11 +20,12 @@ module.exports = {
           'accent': '#2B9720',
           'accent-focus': '#9FFFCB',
           'accent-content': '#ffffff',
-          'neutral': '#0000',
+          'neutral': '#232528',
           'neutral-focus': '#232528',
           'neutral-content': '#ffffff',
-          'base-100': '#232528',
-          'base-200': '#0000',
+          'base-100': '#0000',
+
+          'base-200': '#232528',
           'base-300': '#EAF6FF',
           'base-content': '#ffffff',
           'info': '#2094f3',
