@@ -6,32 +6,52 @@
 
 </div>
 
-## Introduction
+## 💙 Introduction
 
 With Blank, users will be able to meet people through online and offline events like watch-parties and meetups.
 
-[Netlify Build a Better Web Hackathon](https://townhall.hashnode.com/netlify-hackathon) -:- #Netlify, #NetlifyHackathon
+[Netlify Build a Better Web Hackathon](https://townhall.hashnode.com/netlify-hackathon)
 
-## Todo
+### ❗ Requirements
 
-- :black_square_button: Signup / Sign in
+- Flask
 
-- :black_square_button: Home feed
+- Node install of Tailwindcss and daisyUI
 
-- :black_square_button: User profiles
+### 🚀 Up and Running
 
-- :black_square_button: Signed in users can create events
+```shell
+pip install -r requirements.txt
+```
 
-- :black_square_button: Share event on other social media
+```shell
+export FLASK_APP=app.py
+```
 
-- :black_square_button: Bookmark events
+```shell
+Flask run
+```
 
-- :black_square_button: Signup for event
+## 👷 Todo
 
-- :black_square_button: Signed up users can create streams using our self hosted jitsi server
+- 🔲 Signup / Sign in
 
-- :black_square_button: Private messages
+- 🔲 Home feed
 
-- :black_square_button: Groups
+- 🔲 User profiles
 
-- :black_square_button: Paid events
+- 🔲 Signed in users can create events
+
+- 🔲 Share event on other social media
+
+- 🔲 Bookmark events
+
+- 🔲 Signup for event
+
+- 🔲 Signed up users can create streams using our self hosted jitsi server
+
+- 🔲 Private messages
+
+- 🔲 Groups
+
+- 🔲 Paid events
