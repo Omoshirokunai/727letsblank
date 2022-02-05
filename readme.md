@@ -32,6 +32,15 @@ export FLASK_APP=app.py
 Flask run
 ```
 
+---
+note in order to show updates made to tailwindcss files run:
+
+```shell
+npm run build-css
+```
+
+---
+
 ## 👷 Todo
 
 - 🔲 Signup / Sign in
