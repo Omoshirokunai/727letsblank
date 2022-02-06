@@ -21,11 +21,16 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route("/account")
+def account():
+    return render_template('account.html')
 
 # --------------------
 # ?? login/logout
 # --------------------
-
+@app.route("/signup")
+def signup():
+    return render_template('Signup.html')
 
 
 

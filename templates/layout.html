@@ -7,63 +7,34 @@
     Be yourself">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'main.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'styles.css')}}">
     {%block head%}
 
     {%endblock head%}
 </head>
 
 <body>
-
-    <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
-        <!-- ? logo -->
-        <div class="flex-1 px-2 mx-2">
-            <span class="text-lg font-bold">
-                <a href="#">
-                    <img src="{{url_for('static', filename = 'letsblank.png')}}" alt="letsblank" width=150px>
-                </a>
-            </span>
+    <nav class="navbar is-black">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{url_for('home')}}">
+                <img src="{{url_for('static', filename='letsblank.png')}}" width="112" height="28">
+            </a>
         </div>
 
-        <!-- ? right side -->
-
-        
-
-        <!-- ? icon -->
-        <div class="items-stretch hidden lg:flex">
-            <!-- ? search -->
-        <div class="flex-1 lg:flex-none">
-            <div class="form-control">
-            <input type="text" placeholder="Search" class="input input-ghost">
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button is-primary" href="{{url_for('signup')}}">
+                        <strong>Sign up</strong>
+                    </a>
+                    <a class="button is-light">
+                        Log in
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="flex-none">
-            <button class="btn btn-square btn-ghost">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">             
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>             
-            </svg>
-            </button>
-        </div>
-            <a class="btn btn-ghost btn-sm rounded-btn">
-                    Home
-                </a> 
-            <a class="btn btn-ghost btn-sm rounded-btn">
-                    About
-                </a> 
-            <a class="btn btn-ghost btn-sm rounded-btn">
-                    Contact
-                </a>
-        </div>
-        
-        <div class="flex-none">
-            <div class="avatar">
-            <div class="rounded-full w-10 h-10 m-1">
-                <img src="https://i.pravatar.cc/500?img=32">
-            </div>
-            </div>
-        </div>
-
-    </div>
+    </nav>
 
     {%block content%}
 
