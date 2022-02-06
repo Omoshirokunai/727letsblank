@@ -18,12 +18,6 @@ With Blank, users will be able to meet people through online and offline events 
 
 [Netlify Build a Better Web Hackathon](https://townhall.hashnode.com/netlify-hackathon)
 
-### ❗ Requirements
-
-- Flask
-
-- Node install of Tailwindcss and daisyUI
-
 ### 🚀 Up and Running
 
 ```shell
@@ -36,12 +30,6 @@ export FLASK_APP=app.py
 
 ```shell
 Flask run
-```
-
-> 🔴 Note: in order to show updates made to tailwindcss files run:
-
-```shell
-npm run build-css
 ```
 
 ## 👷 Todo
