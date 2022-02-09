@@ -28,7 +28,7 @@
                     <a class="button is-primary" href="{{url_for('signup')}}">
                         <strong>Sign up</strong>
                     </a>
-                    <a class="button is-light">
+                    <a class="button is-light" href="{{url_for('login')}}">
                         Log in
                     </a>
                 </div>
@@ -39,6 +39,14 @@
     {%block content%}
 
     {%endblock content%}
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Let's Build a better web </strong> by <a href="{{url_for('home')}}">727</a>
+            </p>
+        </div>
+    </footer>
 
 </body>
 
